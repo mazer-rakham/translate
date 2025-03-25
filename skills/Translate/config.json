@@ -1,0 +1,18 @@
+{
+    "name": "Translate",
+    "description": "A skill to translate text to German",
+    "type": "completion",
+    "execution_settings": {
+        "default": {
+            "max_tokens": 1000,
+            "temperature": 0.5
+        }
+    },
+    "input_variables": [
+        {
+            "name": "input",
+            "description": "The text to translate",
+            "required": true
+        }
+    ]
+} 
